@@ -1,0 +1,23 @@
+# Secrets & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
